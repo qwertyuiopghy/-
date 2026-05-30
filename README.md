@@ -281,6 +281,7 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 * 按 `q` 键退出采集程序；
 * 保存的图片会自动命名为 `img_0.jpg`、`img_1.jpg`、`img_2.jpg` 等；
 * 图片会统一保存到 `calibration_images/` 文件夹中。
+<img width="1540" height="454" alt="image" src="https://github.com/user-attachments/assets/46a3c8f9-bab3-4f24-9598-40143d474d24" />
 
 采集时需要让棋盘格在画面中呈现不同位置、不同距离和不同倾斜角度，使标定结果更加稳定。
 
@@ -349,6 +350,8 @@ camera_params.npz
 重投影误差越接近 0，说明标定效果越好。本次误差较小，说明棋盘格角点提取和相机标定结果较为稳定。
 
 ---
+<img width="692" height="282" alt="image" src="https://github.com/user-attachments/assets/43987792-dc3d-4deb-917a-05b0ff4686c2" />
+
 
 ### 6.6 第三步：solvePnP 三维位姿解算
 
@@ -466,6 +469,7 @@ projected_points, _ = cv2.projectPoints(
     axis_points, rvec, tvec, camera_matrix, dist_coeffs
 )
 ```
+<img width="692" height="443" alt="image" src="https://github.com/user-attachments/assets/6bb87b4e-a78c-4dd8-b297-95cc4418411a" />
 
 程序绘制的坐标轴含义如下：
 
