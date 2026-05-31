@@ -662,7 +662,8 @@ tvec: x=...mm y=...mm z=...mm
 
 棋盘格示意图：
 
-![棋盘格示意图](<solvepnp_pose/棋盘格示意图.png>)
+<img width="1333" height="964" alt="a82f6764-bf2b-4cac-9e76-dbdf5b53899f" src="https://github.com/user-attachments/assets/09c8d23a-39f0-4c13-9166-0b0d1f689c0b" />
+
 
 相机标定与内参计算过程：
 
